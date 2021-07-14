@@ -123,3 +123,23 @@ Blog Part started
    color: #AEAEAE;
 }
 
+
+/* Media quaries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688){
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        background-color: #FFC014;
+        grid-template-columns: 1fr;
+    }
+    .player, blog{
+        flex-direction: column;
+    }
+
+    
+    
+}
+
