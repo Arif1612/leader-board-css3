@@ -1,0 +1,13 @@
+/* top player style */
+.players{
+    display: grid; /*by default row wise grid korbe*/
+    grid-template-columns: repeat(3,1fr);/*3 ta column a vag korse colomn wise abong sobar frame size 1fr kroe*/
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px; /*chobigular size dilam*/
+    height: 56px;
+}
