@@ -1,13 +1,43 @@
+/* fonts poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles utilities*/
+body{
+    font-family: 'Poppins', sans-serif; /*aitate pura bodyr vitorer lekha gula poppins font ar hosse*/
+    background-color: #F3F1FF; /*background color save kore dilam*/
+}
+
+main{
+    display: flex; /*pura jinistake center a nia aslam*/
+    justify-content: center; /*apatoto thik ase onno div gula add hoile change korte hobe*/
+
+}
+.container{
+    background: #FFFFFF; /*container ar background set korlam*/
+    width: 870px; /*container ar width set korlam*/
+    padding-top: 30px;
+}
+
+
 /* top player style */
+
+.section-title{
+    color: #562EFF;/*title ar color nilam*/
+    font-size: 24;/*font size thik korlam */
+
+
+}
 .players{
     display: grid; /*by default row wise grid korbe*/
     grid-template-columns: repeat(3,1fr);/*3 ta column a vag korse colomn wise abong sobar frame size 1fr kroe*/
 }
 .player{
     display: flex;
-    align-items: center;
+    align-items: center; /*vertically center allign hobe*/
 }
 .player img{
     width: 56px; /*chobigular size dilam*/
     height: 56px;
+}.player-name{
+    margin-left: 16px;
 }
