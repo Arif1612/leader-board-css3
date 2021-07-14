@@ -19,18 +19,24 @@ main{
 }
 
 
+
 /* top player style */
+.top-players{
+    margin-bottom: 30px; /*player ar div r horizontal line ar maje 30px gap hobe*/
+}
 
 .section-title{
     color: #562EFF;/*title ar color nilam*/
     font-size: 24;/*font size thik korlam */
+    margin-top: 3px;
 
 
 }
 .players{
     display: grid; /*by default row wise grid korbe*/
     grid-template-columns: repeat(3,1fr);/*3 ta column a vag korse colomn wise abong sobar frame size 1fr kroe*/
-}
+    grid-row-gap: 30px;
+}   
 .player{
     display: flex;
     align-items: center; /*vertically center allign hobe*/
@@ -39,5 +45,10 @@ main{
     width: 56px; /*chobigular size dilam*/
     height: 56px;
 }.player-name{
-    margin-left: 16px;
+    margin-left: 16px; /*bam dik theke 16px jaiga charbe*/
+    font-size: 18px; /*player ar name 18px hobe*/
+}
+
+hr{
+    border: 1px solid #470909;
 }
